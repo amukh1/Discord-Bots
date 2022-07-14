@@ -15,7 +15,7 @@ public class Main extends ListenerAdapter implements onMessageReceived {
 
     public static void main(String[] args) throws LoginException {
 
-        JDABuilder builder = JDABuilder.createDefault("OTIwNzk2NjAxOTIzMDI3MDA2.GWkwMM.T3L8nHnOpw8_TfJdy3gypBF44N_RI8vxzkaGCw");
+        JDABuilder builder = JDABuilder.createDefault("<Bot Token>");
 
         // Disable parts of the cache
         builder.disableCache(CacheFlag.MEMBER_OVERRIDES, CacheFlag.VOICE_STATE);
